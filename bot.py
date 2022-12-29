@@ -6,10 +6,7 @@ from telethon import TelegramClient, events, Button
 import logging
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',level=logging.WARNING)
 
-api_id = config.api_id
-api_hash = config.api_hash
-bot_token = config.bot_token
-bot = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
+bot = TelegramClient('bot', 17983098, "ee28199396e0925f1f44d945ac174f64").start(bot_token="5793890668:AAG0Tl-27fOWdy5cfCDd7Zfwo5qaOAM_n6o")
 
 def download(url):
     # download a song from a given url
