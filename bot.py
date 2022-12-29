@@ -6,9 +6,9 @@ from telethon import TelegramClient, events, Button
 import logging
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',level=logging.WARNING)
 
-api_id = config.17983098
-api_hash = config."ee28199396e0925f1f44d945ac174f64"
-bot_token = config."5793890668:AAG0Tl-27fOWdy5cfCDd7Zfwo5qaOAM_n6o"
+api_id = config.api_id
+api_hash = config.api_hash
+bot_token = config.bot_token
 bot = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
 
 def download(url):
